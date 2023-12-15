@@ -140,7 +140,7 @@ T vector<T>::pop(unsigned index ){
         Array[i]=ArrayCopy[i];
         else if(i>index)
         Array[i]=ArrayCopy[i+1];
-    delete[] ArrayCopy;\
+    delete[] ArrayCopy;
     if (rsize>=size)
         --rsize;
     --size;
